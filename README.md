@@ -1,9 +1,11 @@
 <a name="readme-top"></a>
-![Crwn Clothing Logo](https://github.com/yourusername/crwn-clothing/assets/crwn-logo.png)
+
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise, you can also remove it. -->
   <br/>
+  
+  ![screencapture-silly-boba-f3e10d-netlify-app-2023-10-27-20_49_40](https://github.com/AjroudiRida/crwn-clothing/assets/114816909/df043877-9bb1-486e-98e1-6f64b1cc7d1b)
 
   <h3><b>Crwn Clothing</b></h3>
 
