@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./sign-in-form.styles.scss";
+import { SignInContainer, Title, ButtonContainer } from "./sign-in-form.styles";
 import { signInUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils";
 import FormInput from "../form-input/form-input.component";
-import Button from "../button/button.component";
+import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
 import { signInWithGooglePopup } from "../../utils/firebase/firebase.utils";
 
 const SignInForm = () => {
@@ -39,8 +39,8 @@ const SignInForm = () => {
   };
 
   return (
-    <div className="sign-in-container">
-      <h2>Already have an account?</h2>
+    <SignInContainer>
+      <Title>Already have an account?</Title>
       <span>Sign in with email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
@@ -59,14 +59,20 @@ const SignInForm = () => {
           onChange={handleChange}
           value={password}
         />
-        <div className="buttons-container">
-          <Button type="submit">Sign In</Button>
-          <Button type="button" button_type="google" onClick={logGoogleUsers}>
+        <ButtonContainer>
+          <Button button_type={BUTTON_TYPE_CLASSES.base} type="submit">
+            Sign In
+          </Button>
+          <Button
+            type="button"
+            button_type={BUTTON_TYPE_CLASSES.google}
+            onClick={logGoogleUsers}
+          >
             Sign In with google
           </Button>
-        </div>
+        </ButtonContainer>
       </form>
-    </div>
+    </SignInContainer>
   );
 };
 
