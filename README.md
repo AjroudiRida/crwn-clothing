@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://silly-boba-f3e10d.netlify.app/)
+- [Live Demo Link](https://sparkling-axolotl-302e5e.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
