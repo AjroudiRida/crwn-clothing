@@ -14,7 +14,7 @@ export const ShoppingIcon = styled(ShoppingCart)`
   width: 24px;
   height: 24px;
 `;
-export const ItemCount = styled.div`
+export const ItemCount = styled.span`
   position: absolute;
   font-size: 10px;
   font-weight: bold;
